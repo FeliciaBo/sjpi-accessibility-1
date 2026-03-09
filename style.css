@@ -117,33 +117,10 @@ article a {
 }
 
 /* Input-fält i en container med kolumnlayout och flytande positionering */
-.input-container {
+.search-bar-container {
   display: flex;
-  flex-direction: column;
-  float: right;
-  width: 50%;
-  background: #ffffff00; /* Genomskinlig bakgrund */
-}
-
-/* Inputfält med röd text och svart ram */
-.input-container input {
-  font-size: 30px;
-  padding: 20px;
-  text-align: right;
-  border: 5px solid black;
-  background-color: rgb(255, 255, 255);
-  color: red;
-}
-
-/* Knapp med rosa kant, mörkröd bakgrund och roterad */
-.input-container button {
-  border: 10px ridge pink;
-  background-color: darkred;
-  color: white;
-  font-size: 40px;
-  padding: 30px;
-  cursor: crosshair;
-  transform: rotate(-10deg);
+  justify-content: center;
+  padding: 64px 0;
 }
 
 /* En knapp med blå bakgrund och vit text */
