@@ -46,27 +46,23 @@ Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att
             <li><a href="404.html">Sports</a></li>
             <li><a href="404.html">Entertainment</a></li>
         </ul>
+         <div class="search-bar-container">
+        <input type="text" id="search-bar" placeholder="Enter text">
+        <button class="searchBtn">Search</button>
+    </div>
     </nav>
 
-    <!-- Svåråtkomligt inputfällt -->
-    <div class="search-bar-container">
-        <input type="text" id="search-bar" placeholder="Enter text">
-        <button><a href="#">Search</a></button>
-    </div>
+
 
     <div class="container">
-
-        <!-- Två <h1>-taggar i .container kan påverka tillgänglighet och SEO. -->
         <h1>A11y News</h1>
-        <h1></h1>
 
         <div class="article">
             <!-- <marquee>(rullande text) kan vara en intressant effekt på en hemsida, men det kan också vara distraherande för besökarna. -->
-            <marquee class="headline">Breaking News: ...!</marquee>
+            <h2 class="headline">Breaking News: ...!</h2>
             <p>Scientists have discovered a new deep-sea fish with bioluminescent fins off the coast of Australia. The
                 unnamed species is believed to have unique traits that could contribute to future medical research and
                 biotechnology.</p>
-            <a href="404.html">Click here!</a>
         </div>
 
         <!-- Klicka på artikeln för att visa ett meddelande, men den utför egentligen inget. -->
