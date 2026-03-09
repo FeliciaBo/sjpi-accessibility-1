@@ -12,9 +12,11 @@ body {
   font-size: 30px;
   text-align: left;
   line-height: 1.2em;
+  text-align: center;
 }
 
-/* Navigeringsmeny med mörk bakgrund och jämnt fördelade element */
+
+/* Navigeringsmeny + sökruta*/
 nav {
   background-color: #3b3b3b;
   padding: 30px;
@@ -38,12 +40,10 @@ nav a {
   text-decoration: none;
 }
 
-/* Bakgrundsfärg vid hover på navigationslänkar */
 nav a:hover {
   background-color: #acacac40;
 }
 
-/* sökruta */
 .search-bar-container {
   display: flex;
   flex-direction: row;
@@ -70,6 +70,50 @@ nav a:hover {
   background-color: #8d0801;
 }
 
+
+/* Sektioner med extra padding för att skapa utrymme mellan innehållsblocken */
+section {
+  padding: 120px 0;
+}
+
+.page-title {
+  background-color: #8d0801;
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+.breaking-news {
+  background-color: #acacac40;
+  color: black;
+  padding: 120px 240px;
+  text-align: center;
+}
+
+/* Rubrik med stor text och mörkröd färg, justerad till höger */
+.headline {
+  font-size: 80px;
+  font-weight: lighter;
+  color: #8d0801;
+  text-align: center;
+  margin: 50px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.breaking-news p {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  margin: 20px;
+}
+
+.lunar-new-year-news {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 32px;
+}
 /* ändrar så det ser ut som knappar */
 article a {
   color: black ;
@@ -78,37 +122,10 @@ article a {
   background-color: lightsteelblue;
   border-radius: 10px;
   font-size: 16px;
-  margin-top: 16px;
+  margin-top: 24px;
   font-weight: bold;
 }
 
-
-/* En behållare med mittjusterad text och en blå transparent bakgrund */
-.container {
-  width: 100%;
-  margin: auto;
-  border: 10px solid pink;
-  background-color: rgba(0, 0, 255, 0.2);
-  text-align: center;
-}
-
-/* Artikel med prickad orange linje och en radial gradient som bakgrund */
-.article {
-  border-bottom: 10px dotted orange;
-  margin-bottom: 50px;
-  padding-bottom: 50px;
-  background: radial-gradient(circle, black, transparent);
-}
-
-/* Rubrik med stor text och mörkröd färg, justerad till höger */
-.headline {
-  font-size: 80px;
-  font-weight: lighter;
-  color: #8d0801;
-  text-align: right;
-  margin: 50px;
-  padding: 20px;
-}
 
 
 /* Bilderna placeras i en rad, centrerar dem horisontellt och vertikalt och lägger till ett mellanrum mellan bilderna */
@@ -127,17 +144,3 @@ article a {
 }
 
 
-/* Sektion med centrerad layout */
-.top-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.lunar-new-year-news {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 32px;
-}

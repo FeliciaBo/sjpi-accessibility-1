@@ -53,18 +53,21 @@ Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att
     </nav>
 
 
-
-    <div class="container">
+<main>
+    <section class="page-title">
         <h1>A11y News</h1>
-
-        <div class="article">
-            <!-- <marquee>(rullande text) kan vara en intressant effekt på en hemsida, men det kan också vara distraherande för besökarna. -->
+        </section>
+<section class="breaking-news">
+        <article>
             <h2 class="headline">Breaking News!</h2>
             <p>Scientists have discovered a new deep-sea fish with bioluminescent fins off the coast of Australia. The
                 unnamed species is believed to have unique traits that could contribute to future medical research and
                 biotechnology.</p>
-        </div>
+                <a href="fish-article.html">Read more</a>
+   </section>
 
+
+   <section class="lunar-new-year">
         <!-- Klicka på artikeln för att visa ett meddelande, men den utför egentligen inget. -->
         <div class="article-container">
             <h2>Lunar New Year: Celebrate with us!</h2>
@@ -86,7 +89,9 @@ Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att
                 <a href="family-article.html">Family gatherings</a>
                 </article>
            </div>
-
+</section>
+ </main>
+<footer>
         <!-- Allt för stor bild. För att motverka prestanda problem, ha koll på storleken på bilden -->
         <div class="article" style="display: none;">
             <p class="headline">Se en 50MB bild ladda långsamt!</p>
@@ -94,13 +99,13 @@ Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att
         </div>
 
         <!-- Videor kräver mycket prestanda, kan vi ändra eller ta bort för att åstakomma bättre resultat -->
-        <div class="article">
-            <video autoplay muted loop src="https://www.w3schools.com/html/mov_bbb.mp4"></video>
+        <div class="video-container">
+            <video src="https://www.w3schools.com/html/mov_bbb.mp4"></video>
             <img src="http://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif">
         </div>
     </div>
-
-   
+</footer>
+  
    <!-- <script src="script.js" defer></script>-->
 </body>
 
