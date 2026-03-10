@@ -49,10 +49,12 @@ nav a:hover {
   flex-direction: row;
   margin-left: auto;
   color:white;
+  position: relative;
 }
 
 .search-bar-container input {
   padding: 12px;
+  padding-left: 48px; 
   border-radius: 4px;
 }
 
@@ -68,8 +70,21 @@ nav a:hover {
 
 .searchBtn:hover  {
   background-color: #8d0801;
+  color: white;
+}
+i {
+  position: absolute;
+  left: 16px;
+  font-size: 16px;
+  color: black;
+  padding: 10px 0;
 }
 
+.search-input-wrapper input {
+  padding: 12px;
+  padding-left: 35px; /* space for icon */
+  border-radius: 4px;
+}
 
 /* Sektioner med extra padding för att skapa utrymme mellan innehållsblocken */
 section {
