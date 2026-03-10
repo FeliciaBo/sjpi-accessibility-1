@@ -9,7 +9,7 @@
 /* Ställer in bakgrundsfärg, textfärg och textstil för hela sidan */
 body {
   color: black;
-  font-size: 30px;
+  font-size: 16px;
   text-align: left;
   line-height: 1.2em;
   text-align: center;
@@ -19,10 +19,10 @@ body {
 /* Navigeringsmeny + sökruta*/
 nav {
   background-color: #3b3b3b;
-  padding: 30px;
+  padding: 2rem;
   display: flex;
   
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
   
 }
@@ -31,12 +31,12 @@ nav ul {
   
   list-style: none;
   display: flex;
-  gap: 62px;
+  gap: 3.875rem;
 }
 /* Navigeringslänkar */
 nav a {
   color: #ffffff;
-  padding: 10px;
+  padding: 0.625rem;
   text-decoration: none;
 }
 
@@ -53,8 +53,8 @@ nav a:hover {
 }
 
 .search-bar-container input {
-  padding: 12px;
-  padding-left: 48px; 
+  padding: 0.75rem;
+  padding-left: 3rem; 
   border-radius: 4px;
 }
 
@@ -62,9 +62,9 @@ nav a:hover {
   background-color: lightgray;
   border: none;
   cursor: pointer;
-  padding: 12px 16px;
+  padding: 0.75rem 1rem;
   border-radius: 4px;
-  margin-left: 8px;
+  margin-left: 0.5rem;
   color:black;
 }
 
@@ -74,75 +74,74 @@ nav a:hover {
 }
 i {
   position: absolute;
-  left: 16px;
-  font-size: 16px;
+  left: 1rem;
+  font-size: 1rem;
   color: black;
-  padding: 10px 0;
+  padding: 0.625rem 0;
 }
 
 .search-input-wrapper input {
-  padding: 12px;
-  padding-left: 35px; /* space for icon */
+  padding: 0.75rem;
+  padding-left: 2.5rem; 
   border-radius: 4px;
 }
 
 /* Sektioner med extra padding för att skapa utrymme mellan innehållsblocken */
 section {
-  padding: 120px 0;
+  padding: 7.5rem 0;
 }
 
 .page-title {
   background-color: #8d0801;
   color: white;
-  padding: 50px;
+  padding: 3.125rem;
   text-align: center;
 }
 
 .breaking-news {
   background-color: #acacac40;
   color: black;
-  padding: 120px 240px;
+  padding: 5rem 6.25rem;
   text-align: center;
 }
 
 /* Rubrik med stor text och mörkröd färg, justerad till höger */
 .headline {
-  font-size: 80px;
-  font-weight: lighter;
+  font-size: 5rem;
   color: #8d0801;
   text-align: center;
-  margin: 50px;
-  padding: 20px;
+  margin: 3.125rem;
+  padding: 1.25rem;
   font-weight: bold;
 }
 
 .breaking-news p {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: black;
   text-align: center;
-  margin: 20px;
+  margin-bottom: 4rem;
 }
 
 .lunar-new-year-news {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 32px;
+  padding: 2rem;
 }
 
 h2 {
-  padding-bottom: 16px;
+  padding-bottom: 1rem;
 }
 
 /* ändrar så det ser ut som knappar */
 article a {
   color: black ;
   text-decoration: none;
-  padding: 8px 32px;
+  padding: 0.5rem 2rem;
   background-color: lightsteelblue;
   border-radius: 10px;
-  font-size: 16px;
-  margin-top: 24px;
+  font-size: 1rem;
+  margin-top: 1.5rem;
   font-weight: bold;
 }
 
@@ -153,7 +152,7 @@ article a {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 /* Definierar storleken på bilderna och gör att de täcker det angivna utrymmet utan att bli förvrängda  */
@@ -169,12 +168,12 @@ footer {
   background-color: #3b3b3b;
   color: white;
   text-align: center;
-  padding: 80px;
+  padding: 5rem;
 }
 
 footer h3 {
-  font-size: 36 px;
-  padding: 32px 32px 56px 32px;
+  font-size: 2rem;
+  padding: 2rem 2rem 3.5rem 2rem;
 }
 
 /*tablet/mobile */
@@ -183,12 +182,12 @@ footer h3 {
   nav {
     flex-direction: column;
     align-items: flex-start;
-    padding: 20px;
+    padding: 1.25rem;
   }
 
   nav ul {
     flex-direction: column;
-    gap: 15px;
+    gap: 1rem;
     width: 100%;
     padding: 0;
   }
@@ -208,11 +207,11 @@ footer h3 {
   
   }
   .headline {
-    font-size: 40px;
-    padding: 20px;
+    font-size: 2.5rem;
+    padding: 1.25rem;
   }
   .breaking-news {
-    padding: 60px 20px;
+    padding: 3.75rem 1.24rem;
   }
   
   .image-container {
