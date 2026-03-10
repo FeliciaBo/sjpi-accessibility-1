@@ -149,6 +149,7 @@ article a {
 }
 
 
+
 footer {
   background-color: #3b3b3b;
   color: white;
@@ -159,4 +160,52 @@ footer {
 footer h3 {
   font-size: 36 px;
   padding: 32px 32px 56px 32px;
+}
+
+/*tablet/mobile */
+@media (max-width: 1200px) {
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .search-bar-container {
+    margin: 3rem 0;
+    width: 60%;
+    align-self: center;
+  }
+
+  .search-bar-container input {
+    width: 80%;
+  }
+
+  .searchBtn {
+    width: 30%;
+  
+  }
+  .headline {
+    font-size: 40px;
+    padding: 20px;
+  }
+  .breaking-news {
+    padding: 60px 20px;
+  }
+  
+  .image-container {
+    flex-direction: column;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
 }
