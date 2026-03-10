@@ -130,7 +130,8 @@ section {
 }
 
 h2 {
-  padding-bottom: 1rem;
+  padding-bottom: 3rem;
+  font-size: 3rem;
 }
 
 /* ändrar så det ser ut som knappar */
@@ -214,6 +215,9 @@ footer h3 {
     padding: 3.75rem 1.24rem;
   }
   
+  .lunar-new-year-news {
+    margin-bottom: 2rem;
+  }
   .image-container {
     flex-direction: column;
   }
