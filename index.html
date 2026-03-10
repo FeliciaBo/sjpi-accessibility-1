@@ -1,9 +1,5 @@
 <!-- 
-The A11Y Project är ett community-drivet initiativ som strävar efter att göra digital tillgänglighet enklare, 
-mer begriplig och lättare att implementera för alla.
 
-Läs lite om projektet:
-https://www.a11yproject.com/about/
 
 
 Tillgänglighet är en viktig del av webbutveckling. Det handlar om att göra webbplatser och appar tillgängliga för alla, inklusive personer med funktionsnedsättningar. 
@@ -33,8 +29,9 @@ Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A news website with articles about various topics, including breaking news, world events, sports, and entertainment.">
     <link rel="stylesheet" href="style.css">
-    <!-- Endast en `<title>` används; flera kan orsaka oväntat beteende och påverka SEO samt tillgänglighet negativt. -->
+  
     <title>A11y News</title>
 </head>
 
@@ -63,7 +60,7 @@ Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att
             <p>Scientists have discovered a new deep-sea fish with bioluminescent fins off the coast of Australia. The
                 unnamed species is believed to have unique traits that could contribute to future medical research and
                 biotechnology.</p>
-                <a href="fish-article.html">Read more</a>
+                <a href="fish-article.html">Learn more about the discovery</a>
    </section>
 
 
@@ -75,38 +72,33 @@ Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att
 
             <div class="image-container">
                  <article class="lunar-new-year-news">
-                <img src="images/ocean.jpg" alt="Ocean with waves">  
+                <img src="images/ocean.avif" alt="Ocean with waves">  
                 <a href="ocean-article.html">Ocean views</a>
                 </article>
 
                  <article class="lunar-new-year-news">
-                <img src="images/city.jpg" alt="Chinese city">
+                <img src="images/city.avif" alt="Chinese city">
                 <a href="city-article.html">City lights</a>
                 </article>
 
                  <article class="lunar-new-year-news">
-                <img src="images/family.jpg" alt="Chinese Family">
+                <img src="images/family.avif" alt="Chinese Family">
                 <a href="family-article.html">Family gatherings</a>
                 </article>
            </div>
 </section>
  </main>
 <footer>
-        <!-- Allt för stor bild. För att motverka prestanda problem, ha koll på storleken på bilden -->
-        <div class="article" style="display: none;">
-            <p class="headline">Se en 50MB bild ladda långsamt!</p>
-            <img src="http://upload.wikimedia.org/wikipedia/commons/3/3f/JPEG_example_flower.jpg" width="500px" height="500px">
-        </div>
+      
+       
 
-        <!-- Videor kräver mycket prestanda, kan vi ändra eller ta bort för att åstakomma bättre resultat -->
-        <div class="video-container">
-            <video src="https://www.w3schools.com/html/mov_bbb.mp4"></video>
-            <img src="http://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif">
+      <h3> Tack för att du besökte vår webbplats!</h3>
+            
         </div>
     </div>
 </footer>
   
-   <!-- <script src="script.js" defer></script>-->
+
 </body>
 
 </html>
